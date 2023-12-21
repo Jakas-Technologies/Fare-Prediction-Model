@@ -7,7 +7,9 @@ The dataset used in this project is a simulated dataset created specifically for
 
 - **Features**:
   1. **Distance**: The distance of the angkot journey, measured in meters.
-  2. **Passenger Type**: The type of passenger, categorized as Student, General, or Elderly.
+  2. **Type**: The type of passenger, categorized as Student, General, or Elderly.
+  3. **BBM**: BBM refers to the price of fuel used for angkot.
+  4. **Distance_BBM**: A feature obtained by multiplying the distance traveled by angkot with the corresponding fuel cost.
 
 - **Label**:
   - Fare: The target variable representing the angkot fare.
